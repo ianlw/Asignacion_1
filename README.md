@@ -1,4 +1,4 @@
-#Asignación 1
+# Asignación 1
 Integrantes:
 - PUMACHOQUE CHOQUENAIRA JHON ESAU
 - ZEGARRA ROJASJORGE ENRIQUE
