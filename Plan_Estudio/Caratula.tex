@@ -1,0 +1,58 @@
+\documentclass[a4paper]{article}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc} % Escribir acentos directamente:
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} %Paquete para usar imagenes
+
+% Documento
+\begin{document}
+\begin{titlepage}
+
+%--------------- Nuevo comendo de linea ----------------->
+\newcommand{\linea}{\rule{\linewidth}{0.7mm}} 
+\center
+
+%--------------- Universidad, facultad y carrera ----------------->
+\textbf{\Large UNIVERSIDAD NACIONAL SAN ANTONIO ABAD DEL CUSCO}\\[0.2cm]
+\textbf{\Large FACULTAD DE INGENIERÍA ELÉCTRICA, ELECTRÓNICA,INFORMÁTICA Y MECÁNICA}\\[0.2cm]
+\textbf{\Large INGENIERÍA INFORMÁTICA Y DE SISTEMAS\\[0.6cm]}
+
+%--------------- Escudos png ----------------->
+\includegraphics[width=8cm]{escudo-unsaac.png}
+% \includegraphics[width=6cm]{informatica.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+\vfill
+
+%--------------- Tema ----------------->
+\linea
+\vfill
+\textbf{\LARGE Plan de estudio de }\\[0.2cm]
+\linea \\
+\vfill
+
+%--------------- Integrantes ----------------->
+\textit{\Large Integrantes:}\\
+%Integrantes del grupo
+    \vfill
+    \textbf{\large Pumachoque Choquenaira Jhon Esau}\\[0.1cm]
+    \textbf{\large Zegarra Rojas Jorge Enrique}\\[0.1cm]
+    \textbf{\large Torre Cano Eduardo}\\[0.1cm]
+    \textbf{\large Rodriguez Pauccarac Ristian Diego}\\[0.1cm]
+    \textbf{\large Ian Logan Will Quispe Ventura}\\
+    \vfill
+
+%--------------- Profesor y curso ----------------->
+\vspace{0.3cm}
+    \textit{\Large Profesor:}\\
+    \textbf{Lauro Enciso Rodas}\\
+\vspace{0.5cm}
+    \textit{\Large Curso:}\\
+    \textbf{Modelos probabilísticos}\\
+    \vfill
+
+\vspace{0.5cm}
+    \textbf{\Large Cusco - Perú }\\
+    \newpage
+    \end{titlepage}
+\end{document}
